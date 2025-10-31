@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 私有化部署 | 智能未来的自主掌控</title>
+  <style>
+    :root {
+      --bg: #0e0e0e;
+      --fg: #ffffff;
+      --accent: #999999;
+      --border: #2a2a2a;
+    }
+    body {
+      margin: 0;
+      font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+    }
+    header {
+      padding: 3rem 5%;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, #1a1a1a, #0e0e0e);
+      animation: fadeIn 1.2s ease-out;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-10px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    header h1 {
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      color: var(--accent);
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    section {
+      max-width: 1000px;
+      margin: 4rem auto;
+      padding: 0 5%;
+      animation: fadeUp 1s ease;
+    }
+    @keyframes fadeUp {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    h2 {
+      font-size: 1.8rem;
+      border-left: 4px solid var(--fg);
+      padding-left: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: var(--accent);
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .highlight {
+      color: var(--fg);
+      font-weight: 600;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2rem;
+      transition: all 0.3s ease;
+      background-color: #151515;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #444;
+    }
+    .card h3 {
+      color: var(--fg);
+      font-size: 1.2rem;
+      margin-bottom: 0.8rem;
+    }
+    footer {
+      text-align: center;
+      padding: 3rem 0;
+      border-top: 1px solid var(--border);
+      color: var(--accent);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI 私有化部署</h1>
+    <p>让智能更安全、更可控。构建属于你的专属人工智能生态系统。</p>
+  </header>
+
+  <section>
+    <h2>什么是私有化部署？</h2>
+    <p>
+      私有化部署是指将 <span class="highlight">AI 模型与数据系统</span> 部署在企业自有或指定的服务器、云环境中，
+      而非运行在第三方公有云平台上。这样可以确保 <span class="highlight">数据隐私、安全合规与算力自主</span>。
+    </p>
+  </section>
+
+  <section>
+    <h2>为什么选择 AI 私有化？</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>🔒 数据安全</h3>
+        <p>所有数据留在企业内部环境中，避免外部传输风险，满足各类隐私与监管要求。</p>
+      </div>
+      <div class="card">
+        <h3>⚙️ 可控架构</h3>
+        <p>根据自身需求自由定制模型结构、访问策略与硬件配置。</p>
+      </div>
+      <div class="card">
+        <h3>🚀 高性能优化</h3>
+        <p>针对企业特定任务进行本地加速、微调与模型压缩，提高推理效率。</p>
+      </div>
+      <div class="card">
+        <h3>🧩 无缝集成</h3>
+        <p>可与现有业务系统、API 接口、内部知识库集成，打造专属智能中台。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>典型应用场景</h2>
+    <p>
+      私有化 AI 广泛应用于 <span class="highlight">金融、医疗、制造、政务、教育</span> 等行业。
+      企业可在本地环境中安全地部署 <span class="highlight">大语言模型、知识问答系统、智能客服、自动文档分析</span> 等应用。
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 YourCompany. 保留所有权利。</p>
+  </footer>
+</body>
+</html>
